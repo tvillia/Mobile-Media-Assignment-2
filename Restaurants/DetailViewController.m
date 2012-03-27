@@ -11,6 +11,9 @@
 @synthesize navigationHeader;
 @synthesize cuisineLabel;
 @synthesize phoneLabel;
+@synthesize cuisineTypeLabel;
+@synthesize yearLabel;
+@synthesize reviewLabel;
 
 #pragma mark - View lifecycle
 
