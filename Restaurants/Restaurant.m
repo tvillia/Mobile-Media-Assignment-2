@@ -6,7 +6,7 @@
 #import "Restaurant.h"
 
 @implementation Restaurant
-@synthesize address, name; phone; cuisineType; year; review;
+@synthesize address, name, phone, cuisineType, year, review;
 
 - (id)init {
     self = [super init];

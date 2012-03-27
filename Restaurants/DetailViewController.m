@@ -24,6 +24,11 @@
     
     addressLabel.text = [restaurant address];
     navigationHeader.title = [restaurant name];
+    cuisineLabel.text = [restaurant cuisineType];
+    phoneLabel.text = [restaurant phone];
+    yearLabel.text = [restaurant year];
+    reviewLabel.text = [restaurant review];
+   
 }
 
 - (void)viewDidUnload
