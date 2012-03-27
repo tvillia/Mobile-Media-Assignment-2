@@ -86,8 +86,8 @@
 		0EE5A6D914BEB490006BB5E1 /* Restaurants */ = {
 			isa = PBXGroup;
 			children = (
-				0E02F6BB14CD10E300C3EAE8 /* Restaurant.h */,
 				0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */,
+				0E02F6BB14CD10E300C3EAE8 /* Restaurant.h */,
 				0EE5A6E214BEB490006BB5E1 /* AppDelegate.h */,
 				0EE5A6E314BEB490006BB5E1 /* AppDelegate.m */,
 				0EE5A6E514BEB491006BB5E1 /* MainStoryboard.storyboard */,

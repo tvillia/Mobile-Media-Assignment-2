@@ -10,6 +10,7 @@
 @synthesize addressLabel;
 @synthesize navigationHeader;
 @synthesize cuisineLabel;
+@synthesize phoneLabel;
 
 #pragma mark - View lifecycle
 

@@ -9,10 +9,16 @@
 {
     NSString* address;
     NSString* name;
-    
+    NSString* phone;
+    NSString* cuisineType;
+    NSString* year;
+    NSString* review;
 }
 @property(readwrite, strong) NSString* address;
 @property(readwrite, strong) NSString* name;
-
+@property(readwrite, strong) NSString* phone;
+@property(readwrite, strong) NSString* cuisineType;
+@property(readwrite, strong) NSString* year;
+@property(readwrite, strong) NSString* review;
 
 @end
