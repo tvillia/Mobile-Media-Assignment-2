@@ -6,7 +6,13 @@
 #import "Restaurant.h"
 
 @implementation Restaurant
-@synthesize address, name, phone, cuisineType, year, review;
+@synthesize address, name, phone, cuisineType, yearOpened, review;
+
+-(int)age
+{
+    return 2012 - yearOpened;
+}
+
 
 - (id)init {
     self = [super init];
@@ -15,8 +21,9 @@
         address = @"477 Hart Street\nBrooklyn, NY 11221";
         phone = @"7185085290";
         cuisineType = @"Afro-Asian";
-        year = @"1983";
+        yearOpened = 1983;
         review = @"This place was awesome! It features a loveley ambience with superb customer service (uncommon for New York). This is a must dine!";
+        
         
     }
     return self;
@@ -25,3 +32,4 @@
 
 
 @end
+//init method. go back and complete this part for the restaurant age.

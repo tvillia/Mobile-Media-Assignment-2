@@ -6,6 +6,7 @@
 
 #import "DetailViewController.h"
 
+
 @implementation DetailViewController
 @synthesize addressLabel;
 @synthesize navigationHeader;
@@ -26,8 +27,12 @@
     navigationHeader.title = [restaurant name];
     cuisineLabel.text = [restaurant cuisineType];
     phoneLabel.text = [restaurant phone];
-    yearLabel.text = [restaurant year];
+    yearLabel.text = [NSString stringWithFormat:@"Est. %i (%i years ago)", restaurant.yearOpened, [restaurant age]];
+    restaurant.yearOpened = 1983;
     reviewLabel.text = [restaurant review];
+ 
+   
+    
    
 }
 

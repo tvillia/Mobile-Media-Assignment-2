@@ -11,14 +11,23 @@
     NSString* name;
     NSString* phone;
     NSString* cuisineType;
-    NSString* year;
     NSString* review;
+    int yearOpened; 
+  
+    
+
 }
+
 @property(readwrite, strong) NSString* address;
 @property(readwrite, strong) NSString* name;
 @property(readwrite, strong) NSString* phone;
 @property(readwrite, strong) NSString* cuisineType;
 @property(readwrite, strong) NSString* year;
 @property(readwrite, strong) NSString* review;
+@property(readwrite) int yearOpened;
+-(int) age;
+
+
+ 
 
 @end
