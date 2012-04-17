@@ -22,7 +22,6 @@
 @property(readwrite, strong) NSString* name;
 @property(readwrite, strong) NSString* phone;
 @property(readwrite, strong) NSString* cuisineType;
-@property(readwrite, strong) NSString* year;
 @property(readwrite, strong) NSString* review;
 @property(readwrite) int yearOpened;
 -(int) age;
